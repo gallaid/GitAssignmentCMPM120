@@ -11,7 +11,7 @@ public class Clock : MonoBehaviour {
     // Use this for initialization
     void Start()
     {
-
+        //Do some stuff here
         brain = GameObject.FindGameObjectWithTag("Brin");
 
 
