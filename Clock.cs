@@ -12,7 +12,9 @@ public class Clock : MonoBehaviour {
     void Start()
     {
 
-        brain = GameObject.FindGameObjectWithTag("Brin");
+        brain = GameObject.FindGameObjectWithTag("Brain");
+
+        //This will make a merge conflict
 
 
     }
@@ -28,7 +30,7 @@ public class Clock : MonoBehaviour {
     private void OnTriggerEnter(Collider other)
     {
 
-        if (other.gameObject.tag == ("Brin"))
+        if (other.gameObject.tag == ("Brain"))
         {
             
             
