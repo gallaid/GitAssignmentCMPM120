@@ -12,7 +12,7 @@ public class Clock : MonoBehaviour {
     void Start()
     {
 
-        brain = GameObject.FindGameObjectWithTag("Brain");
+        brain = GameObject.FindGameObjectWithTag("Brin");
 
 
     }
@@ -28,7 +28,7 @@ public class Clock : MonoBehaviour {
     private void OnTriggerEnter(Collider other)
     {
 
-        if (other.gameObject.tag == ("Brain"))
+        if (other.gameObject.tag == ("Brin"))
         {
             
             
